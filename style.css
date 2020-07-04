@@ -1,83 +1,91 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
-
-body {
-  /* Box-model */
-  padding: 0;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #efeee7;
+html {
+  position: relative;
+  min-height: 100%;
 }
-
-header {
-  background: #d21034;
+main {
+  margin: 80px 0;
 }
-
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+.block {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
 }
-
-h2 {
-  font-size: 24px;
+.block-header {
+  color: grey;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
-
-a {
-  color: #d21034;
-}
-
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  margin: 0 auto;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
+.photo {
   float: left;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  /* Box-model */
   width: 200px;
-  height: 200px;
+  margin: 0 20px 10px 0;
+}
 
-  /* Positioning */
+body, html {
+  height: 100%;
+}
 
-  margin-right: 20px;
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #B0E0E6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #F0F8FF;
+}
+
+/* Style the container/contact section */
+.contactContainer {
+  border-radius: 5px;
+  background-color: #F0F8FF;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

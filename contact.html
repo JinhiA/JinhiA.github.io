@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="uft8">
-    <title>Responsive Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <!-- jQuery CDN -->
@@ -39,25 +39,30 @@
         </div>
       </div>
   </header>
- 
+
   <body>
 
-    <div class="bg"></div>
-
-    <main class="container">
-      <section class="row">
-        <div class="col-md-8">
-          <article class="block">
-            <h1 class="block-header">About Me</h1>
-            <hr />
-            <img src="http://placehold.it/460x460" class="photo">
-            <p>My name is Jinhi Ahn and I have been in dentistry for the past 10 years. I am currently learning coding in hopes of a career change and express creativity through web development.</p>
-            <br />
-            <p>text</p>
-          </article>
+    <div class="contactContainer">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
         </div>
-      </section>
-    </main>
+          <div class="row">
+          <div class="column">
+          <img src="https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" style="width:100%">
+        </div>
+          <div class="column">
+          <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email is...">
+          <label for="subject">Message</label>
+          <textarea id="Message" name="message" placeholder="Write your message here..." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+   </div>
+</div>
 
   </body>
 </html>
