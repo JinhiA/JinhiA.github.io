@@ -123,3 +123,9 @@ body, html {
   font-family: 'Playfair Display', serif;
   font-size: 75px;
 }
+
+/*Style for portfolio section*/
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+}
