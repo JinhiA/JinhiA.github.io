@@ -38,7 +38,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 20px;
+  font-size: 1.9vw;
 }
 
 * {
@@ -135,7 +135,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Playfair Display', serif;
-  font-size: 75px;
+  font-size: 5.9vw;
 }
 
 /*Style for portfolio section*/
