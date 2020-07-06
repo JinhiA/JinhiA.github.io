@@ -62,6 +62,7 @@ nav {
 }
 
 /* Style for contact section */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -139,6 +140,28 @@ body, html {
 }
 
 /*Style for portfolio section*/
+
+.comingsoonlight {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.portfolioProjects{
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', serif;
+  font-size: 4.9vw;
+  letter-spacing: 1.0em;
+  padding-left: 70px;
+  padding-top: 60px;
+}
+
 .card-title {
   font-family: 'Playfair Display', serif;
   font-size: 15px;
