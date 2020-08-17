@@ -172,6 +172,7 @@ html {
 .card-title {
   font-family: 'Playfair Display', serif;
   font-size: 15px;
+  text-align: center;
 }
 
 /* Social media icon snippet */
