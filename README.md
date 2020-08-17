@@ -4,7 +4,7 @@
 
 This project was designed to create a responsive portfolio website utilizing Bootstrap. 
 
-![screenshot](Portfolio.png)
+![screenshot](Assets/Images/Portfolio.png)
 
 ### Motivation
 
