@@ -8,7 +8,7 @@ This project was designed to create a responsive portfolio website utilizing Boo
 
 ### Motivation
 
-This is the beginning creation of my personal website that will be used to plan, organize, and showcase a collection of successfully completed projects that will illustrate my skills and abilities to potential career opportunites. 
+This is the beginning creation of my personal website that will be used to plan, organize, and showcase a collection of successfully completed projects that will illustrate my skills and abilities to potential career opportunities. 
 
 ### Installation
 
